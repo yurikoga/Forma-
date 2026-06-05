@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="form-box">
+            <h2>Registration Form</h2>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" value="Prem Shahi">
+                </div>
+
+                <div class="input-group">
+                    <label>Email address</label>
+                    <input type="email" placeholder="Enter email address" value="codinglab@gmail.com">
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="number" placeholder="Enter phone number" value="2022228733">
+                    </div>
+                    <div class="input-group">
+                        <label>Birth Date</label>
+                        <input type="date" value="1999-12-12">
+                    </div>
+                </div>
+
+                <div class="gender-section">
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="male" checked> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="other"> Prefer not to say</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Address</label>
+                    <input type="text" placeholder="Enter street address" value="Los Angeles">
+                    <input type="text" placeholder="Enter street address line 2" class="mt-10">
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <select>
+                            <option hidden>Select country</option>
+                            <option>USA</option>
+                            <option>Brazil</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your city">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your region">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Postal code">
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
